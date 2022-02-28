@@ -95,7 +95,22 @@
     }
     
   }
-  
+  @media  screen and (min-width:425px) {
+    .banner-image { padding-right: 22% !important }
+.counter-box {margin: 9px}
+   .products .title {margin-bottom: 300px;}
+.about-me .image img{
+  width: 380px !important;
+  height: 254px !important;
+  margin-top: 30% !important;
+  padding-left: 22px !important;
+ }
+ .about-me  .text{ margin-left: 24px !important}
+ .back-to-top{    margin: 16px;
+ }
+}
+
+
   
   /*Nav*/
   /***************************************************************Home************************************/
@@ -225,10 +240,14 @@
         nav :checked ~ .icon-burger .line:nth-child(2) {
           opacity: 0;
         }
-        .about-me .about-info .text{margin-left: 16%}
-         .about-me h5,.about-me p{font-size: 20px;}
-         .Our-Team img{padding: 50px}
-         .services-section {height:510px !important}  
+         .Our-Team img{padding-left: 21px;
+          width: 93%;
+          height: 100% !important;}
+         .services-section {    height: 700px !important}
+          .services-sub-container {width: 51%}
+          .card{margin-bottom: 19px}
+          .social {display: block}
+
     }
       
       
@@ -244,6 +263,7 @@
           height:600px !important
         }
       .banner-image h4{color: #edb8b8}
+      .about-image h1{font-size: 53px;}
       .banner-image p{color: #d7d7d7}
        .banner-image a{text-decoration: none;
            color:#fff;
@@ -275,7 +295,6 @@
     }
     .products .title{
         width: 60%;
-        display: inline-block;
         margin: 150px auto 0;
         color: #fff;
         text-align: center;
