@@ -95,7 +95,7 @@
     }
     
   }
-  @media  screen and (min-width:320px) {
+ /* @media  screen and (min-width:320px) {
     .banner-image {     padding-right: 63% !important;
     }
 .counter-box {    margin: 1px;
