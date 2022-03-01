@@ -95,18 +95,35 @@
     }
     
   }
-  @media  screen and (min-width:425px) {
-    .banner-image { padding-right: 22% !important }
-.counter-box {margin: 9px}
-   .products .title {margin-bottom: 300px;}
+  @media  screen and (min-width:320px) {
+    .banner-image {     padding-right: 63% !important;
+    }
+.counter-box {    margin: 1px;
+  width: 113px !important;
+  height: 266px !important;
+  margin-top: 18px;
+}
+.products{    margin-bottom: 100%;
+}
+.products .title {
+    margin-bottom: 746px !important;}
+    .products .row{
+      margin-top: 282px;
+      margin-left: 37px;  }
+  .about-me{    margin-top: 609px !important;
+  }
 .about-me .image img{
-  width: 380px !important;
-  height: 254px !important;
+  width: 200px !important;
+  height: 215px !important;
   margin-top: 30% !important;
   padding-left: 22px !important;
  }
- .about-me  .text{ margin-left: 24px !important}
- .back-to-top{    margin: 16px;
+ .about-me  .text{margin-left: 24px !important;width: 170px}
+ .back-to-top{margin: 16px}
+ nav{    width: 61% !important}
+
+ nav .icon-burger{   position: absolute !important;
+  right: -45px !important;
  }
 }
 
@@ -244,9 +261,16 @@
           width: 93%;
           height: 100% !important;}
          .services-section {    height: 700px !important}
-          .services-sub-container {width: 51%}
+          .services-sub-container {width: 46%;
+            position: absolute !important;
+            left: 50px !important;
+            /* float: left !important; */
+            /* padding-left: 101%; */
+            /* font-size: 74rem !important; */
+        }
           .card{margin-bottom: 19px}
           .social {display: block}
+          .footer .copyright{    width: 262px}
 
     }
       
@@ -666,7 +690,7 @@
 /*************************************Start Products Page*****************************************/
 .products-section{background-color: #cccccc21;}
 .products-section h2{color: #dd5c80}
-
+.products .title h1{}
 .about-me .image img:hover,
 .portfolio img:hover,
 .comparison img:hover{transform: scale(1.1);transition: all .3s;}
